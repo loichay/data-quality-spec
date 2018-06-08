@@ -146,7 +146,7 @@
           "type": "schema",
           "context": "body",
           "weight": 9,
-          "message": "La colonne {column_number} est obligatoire, mais la ligne {row_number} ne comporte de valeur pour cette colonne",
+          "message": "La colonne {column_number} est obligatoire, mais la ligne {row_number} ne comporte pas de valeur pour cette colonne",
           "description": "Cette colonne est obligatoire mais elle contient des valeurs vides.\n\n Pour résoudre le problème :\n - Si c'est une erreur de données, complétez la valeur manquante.\n - Si ce n'est pas une erreur, retirez la contrainte `required` du schéma pour cette colonne.\n - Si vous ne souhaitez pas être notifié de cette erreur, désactivez la vérification `required-constraint` dans {validator}."
         },
         "pattern-constraint": {
